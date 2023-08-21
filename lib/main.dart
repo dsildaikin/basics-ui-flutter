@@ -41,7 +41,7 @@ class MyApp extends StatelessWidget {
     return const Row(
       children: [
         Padding(
-          padding: EdgeInsets.only(right: 15.0),
+          padding: EdgeInsets.symmetric(horizontal: 15),
           child: Icon(
             Icons.search,
             color: Colors.white,
@@ -216,7 +216,7 @@ class MyApp extends StatelessWidget {
 
   _bottomDetail() {
     return Container(
-      margin: const EdgeInsets.symmetric(vertical: 25, horizontal: 30),
+      margin: const EdgeInsets.symmetric(vertical: 25, horizontal: 12),
       height: 110,
       child: ListView(
         scrollDirection: Axis.horizontal,
